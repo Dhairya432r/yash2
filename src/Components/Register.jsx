@@ -89,7 +89,7 @@ const Register = () => {
         }
     }
 
-    const [isLoginMode, setIsLoginMode] = useState(true)
+
     
     return (
         <>
@@ -103,7 +103,7 @@ const Register = () => {
                             <img
                                 src="https://kartikeyasoft.com/assets/images/register.png"
                                 className="w-96 lg:block hidden  mx-auto"
-                                alt="Sample image" />
+                                alt="" />
                         </div>
 
                         <div className="mb-12 md:mb-0 md:w-8/12 lg:w-5/12 xl:w-5/12">

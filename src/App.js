@@ -253,7 +253,7 @@ import { initialState, reducer } from './Reducer/UserReducer'
 export const UserContext = createContext()
 const Routnig = () => {
   return (
-    <BrowserRouter basename='/yash'>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/Login" element={<Login />} />

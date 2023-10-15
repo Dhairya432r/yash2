@@ -108,21 +108,21 @@ const Navbar = () => {
                 <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
                   <MdOutlineSpaceDashboard className="text-2xl text-gray-600 group-hover:text-white " />
                   <h3 className="text-base text-gray-800 group-hover:text-white font-semibold " >
-                    <a href="">Dashboard</a>
+                    <a href="/Dashboard">Dashboard</a>
                   </h3>
                 </div>
                 <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
 
                   <h3 className="text-base flex text-gray-800 group-hover:text-white font-semibold " >
                     <FaCirclePlus className="text-xl text-gray-600 group-hover:text-white " />
-                    <a href="" className='ml-4'>Add Expense</a>
+                    <a href="/Changeexpense" className='ml-4'>Add Expense</a>
                   </h3>
                 </div>
                 <div  className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
 
                   <h3 className="text-base flex text-gray-800 group-hover:text-white font-semibold " >
                     <AiFillSetting className="text-2xl text-gray-600 group-hover:text-white mr-4" />
-                    <a href="" className=''>Manage Expense</a>
+                    <a href="/ManageExpense" className=''>Manage Expense</a>
                   </h3>
                 </div>
                 <div className="flex mb-2 justify-start items-center gap-4 pl-5 hover:bg-gray-900 p-2 rounded-md group cursor-pointer hover:shadow-lg m-auto">
